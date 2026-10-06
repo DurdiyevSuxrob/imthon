@@ -1270,6 +1270,9 @@ body.darkmode .ret4 {
   background-color: black;
   color: white;
 }
+.Brow {
+  border: 1px solid black;
+}
 
 
 @media (max-width: 768px) {
@@ -1336,11 +1339,14 @@ body.darkmode .ret4 {
     display: grid;
   }
   .Brow {
-    width: 768px;
+    width: 568px;
     height: auto;
     margin-top: 550px;
     margin-left: 55px;
   }
+  /* .Brow p {
+    display: none;
+  } */
   .brow {
     width: 768px;
     height: auto;
@@ -1349,6 +1355,9 @@ body.darkmode .ret4 {
   .broww {
     display: grid;
     gap: 15px;
+  }
+  .Brow h2 {
+    font-size: 15px;
   }
   .brow1 {
     margin-top: 360px;
@@ -1362,8 +1371,11 @@ body.darkmode .ret4 {
     margin-top: 800px;
     margin-left: 10px;
   }
+  .shop p {
+    display: none;
+  }
   .new {
-    width: 768px;
+    width: 588px;
     margin-left: 10px;
   }
   .ford {
@@ -1432,6 +1444,10 @@ body.darkmode .ret4 {
     font-size: 20px;
     margin-left: -700px;
   }
+  .team p {
+    display: none;
+  }
+
 
   .but {
     width: 768px;
@@ -1463,7 +1479,7 @@ body.darkmode .ret4 {
     
   }
   .team {
-    width: 768px;
+    width: 568px;
     height: auto;
     margin-left: 10px;
   }
