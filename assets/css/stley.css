@@ -1302,10 +1302,12 @@ body.darkmode .ret4 {
     margin-right: 800px;
   }
   .modal {
-    margin-right: 1200px;
-    margin-top: -1100px;
+    width: 768px;
+    margin-right: 900px;
+    margin-top: -900px;
   }
   .div4 {
+    width: 500px;
     margin-left: 5px;
     margin-top: 40px;
   }
@@ -1343,6 +1345,9 @@ body.darkmode .ret4 {
     height: auto;
     margin-top: 550px;
     margin-left: 55px;
+  }
+  .ret4 {
+    width: 700px;
   }
   /* .Brow p {
     display: none;
@@ -1483,6 +1488,9 @@ body.darkmode .ret4 {
     height: auto;
     margin-left: 10px;
   }
+  .ret {
+    width: 730px;
+  }
   .sound {
     width: 768px;
     height: auto;
@@ -1561,4 +1569,6 @@ body.darkmode .ret4 {
  
 }
 
-
+.ret4 {
+  border: 1px solid black;
+}
