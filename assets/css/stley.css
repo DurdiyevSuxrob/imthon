@@ -1320,11 +1320,11 @@ body.darkmode .ret4 {
     margin-left: 10px;
   }
   .ret1 {
-    width: 768px;
+    width: 758px;
     margin-left: 10px;
   }
   .carusel {
-    width: 768px;
+    width: 748px;
     height: auto;
     margin-left: 10px;
   }
@@ -1404,7 +1404,7 @@ body.darkmode .ret4 {
     gap: 20px;
   }
   .loan {
-    width: 768px;
+    width: 100%px;
     height: auto;
     display: grid;
   }
