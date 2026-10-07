@@ -1277,9 +1277,7 @@ body.darkmode .ret4 {
   background-color: black;
   color: white;
 }
-.Brow {
-  border: 1px solid black;
-}
+
 
 
 
@@ -1965,8 +1963,13 @@ body.darkmode .ret4 {
 
 }
 .termis a {
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid white; */
   font-weight: 900;
   font-size: 40px;
+  border-radius: 16px;
+  border: none;
 }
 
 
