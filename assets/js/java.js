@@ -34,7 +34,7 @@ const ret3 = document.querySelectorAll(".ret3");
 const ret3Length = ret3.length;
 let hisoblagich = 0;
 
-const ret3width = 675;
+const ret3width = 300;
 
 k2.addEventListener("click", () => {
   if (hisoblagich < ret3Length) {
