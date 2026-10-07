@@ -1965,7 +1965,7 @@ body.darkmode .ret4 {
 
 
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 
     .div4 {
         margin-top: 200px;
@@ -2019,4 +2019,4 @@ body.darkmode .ret4 {
     .ford {
         grid-template-columns: 1fr;
     }
-}
+} */
