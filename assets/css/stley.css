@@ -1578,7 +1578,8 @@ body.darkmode .ret4 {
         height: auto;
         display: grid;
         grid-template-columns: 1fr;
-        margin-top: 10px;
+        margin-top: 15px;
+        gap: 15px;
     }
 
     .brow1 img {
@@ -1586,6 +1587,7 @@ body.darkmode .ret4 {
         height: 230px;
         margin-top: 0;
         object-fit: cover;
+
     }
 
    
