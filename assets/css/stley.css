@@ -924,6 +924,10 @@
   margin-left: 180px;
   margin-top: 150px;
 }
+.button i {
+  font-weight: 900;
+  font-size: 20px;
+}
 .used p {
   margin-left: 180px;
   margin-top: 15px;
