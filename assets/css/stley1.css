@@ -242,7 +242,7 @@
   display: flex;
   justify-content: space-between;
   /* border: 1px solid black; */
-  margin: auto;
+  margin-left: 260px;
   margin-top: 20px;
 }
 
@@ -301,5 +301,12 @@
 }
 /* =================================== */
 .grat {
-  width: ;
+  width: 1415px;
+  height: 900px;
+  margin-left: 260px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.tayota {
+  
 }
