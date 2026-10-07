@@ -1401,7 +1401,6 @@ body.darkmode .ret4 {
     
     .modal {
         padding: 15px;
-        /* z-index: 9999; */
     }
 
     .modal .modal-container {
@@ -1462,7 +1461,6 @@ body.darkmode .ret4 {
         width: calc(100% - 30px);
         margin: 0 15px;
         overflow-x: auto;
-        white-space: nowrap;
     }
 
     .ret2 {
@@ -1486,7 +1484,6 @@ body.darkmode .ret4 {
     .ret3 img {
         width: 42%;
         height: 220px;
-        object-fit: cover;
     }
 
     .ret3i {
@@ -1570,7 +1567,6 @@ body.darkmode .ret4 {
         width: 100%;
         height: auto;
         max-height: 250px;
-        object-fit: cover;
     }
 
     .brow1 {
@@ -1663,7 +1659,6 @@ body.darkmode .ret4 {
         height: 80px;
         display: block;
         margin: 15px auto 10px;
-        object-fit: contain;
     }
 
     .audo b.Bmw b.Ford b.benz b.peu b.volk b {
@@ -1862,7 +1857,7 @@ body.darkmode .ret4 {
         margin-top: 10px;
     }
 
-    /* ================= FOOTER ================= */
+    
 
     .join {
         width: 100%;
@@ -1917,7 +1912,7 @@ body.darkmode .ret4 {
         width: 100%;
     }
 
-    /* ================= COMPANY FOOTER ================= */
+    
 
     .company {
         width: 100%;
