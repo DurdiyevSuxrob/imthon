@@ -1413,11 +1413,10 @@ body.darkmode .ret4 {
         margin-top: 30px;
     }
 
-    /* ================= MODAL ================= */
-
+    
     .modal {
         padding: 15px;
-        z-index: 9999;
+        /* z-index: 9999; */
     }
 
     .modal .modal-container {
@@ -1467,8 +1466,7 @@ body.darkmode .ret4 {
         height: 45px;
     }
 
-    /* ================= CAROUSEL ================= */
-
+   
     .ret {
         width: calc(100% - 30px);
         height: auto;
@@ -1528,7 +1526,7 @@ body.darkmode .ret4 {
         margin-top: 15px;
     }
 
-    /* ================= FEATURES ================= */
+    
 
     .ret4 {
         width: calc(100% - 30px);
@@ -1557,7 +1555,7 @@ body.darkmode .ret4 {
         height: auto;
     }
 
-    /* ================= BROWSE ================= */
+    
 
     .Brow {
         width: calc(100% - 30px);
@@ -1605,7 +1603,7 @@ body.darkmode .ret4 {
         object-fit: cover;
     }
 
-    /* ================= SHOP ================= */
+   
 
     .shop {
         width: calc(100% - 30px);
@@ -1641,8 +1639,6 @@ body.darkmode .ret4 {
         height: auto;
     }
 
-    /* ================= BRANDS ================= */
-
     .wep {
         width: 100%;
         height: auto;
@@ -1667,23 +1663,12 @@ body.darkmode .ret4 {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
-
-    .audo,
-    .Bmw,
-    .Ford,
-    .benz,
-    .peu,
-    .volk {
+.audo.Bmw.Ford.benz.peu.volk {
         width: 100%;
         height: 160px;
     }
 
-    .aud,
-    .Bmw img,
-    .Ford img,
-    .benz img,
-    .peu img,
-    .volk img {
+    .aud.Bmw img.Ford img.benz img.peu img.volk img {
         width: 80px;
         height: 80px;
         display: block;
@@ -1691,19 +1676,14 @@ body.darkmode .ret4 {
         object-fit: contain;
     }
 
-    .audo b,
-    .Bmw b,
-    .Ford b,
-    .benz b,
-    .peu b,
-    .volk b {
+    .audo b.Bmw b.Ford b.benz b.peu b.volk b {
         display: block;
         margin: 0;
         text-align: center;
         font-size: 16px;
     }
 
-    /* ================= LOAN ================= */
+    
 
     .loan {
         width: calc(100% - 30px);
@@ -1751,7 +1731,7 @@ body.darkmode .ret4 {
         display: none;
     }
 
-    /* ================= CUSTOMER ================= */
+    
 
     .cust {
         width: calc(100% - 30px);
@@ -1764,8 +1744,7 @@ body.darkmode .ret4 {
         font-size: 30px;
     }
 
-    /* ================= CUSTOMER CARDS ================= */
-
+    
     .main12 {
         width: calc(100% - 30px);
         height: auto;
@@ -1788,7 +1767,6 @@ body.darkmode .ret4 {
         margin-top: 20px;
     }
 
-    /* ================= TEAM ================= */
 
     .team {
         width: calc(100% - 30px);
@@ -1824,8 +1802,7 @@ body.darkmode .ret4 {
         font-size: 17px;
     }
 
-    /* ================= APP ================= */
-
+    
     .shopp {
         width: calc(100% - 30px);
         height: auto;
@@ -1868,7 +1845,7 @@ body.darkmode .ret4 {
         display: none;
     }
 
-    /* ================= SPORT / BLOG ================= */
+    
 
     .sport {
         width: calc(100% - 30px);
@@ -1996,9 +1973,7 @@ body.darkmode .ret4 {
 }
 
 
-/* =====================================================
-   📱 JUDA KICHIK TELEFONLAR — 480px
-   ===================================================== */
+
 
 @media (max-width: 480px) {
 
