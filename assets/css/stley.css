@@ -1602,9 +1602,12 @@ body.darkmode .ret4 {
     }
 
     .new .b1 {
-        /* width: calc(100% - 30px);
-        margin: 10px 15px; */
+        
         display: none;
+    }
+    .new {
+      width: calc(100% - 30px);
+        margin: 10px 15px;
     }
 
     .b1 {
