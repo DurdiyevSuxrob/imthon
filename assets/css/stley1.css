@@ -281,3 +281,22 @@
   font-size: 16px;
   font-weight: 500;
 }
+.ret {
+  width: 1420px;
+  height: 50px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+.ret1 {
+  width: 1415px;
+  height: 40px;
+  border-bottom: 2px solid gray;
+  display: flex;
+  margin-left: 260px;
+  gap: 17px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+/* =================================== */
