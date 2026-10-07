@@ -1303,7 +1303,7 @@ body.darkmode .ret4 {
 
     .div13 {
         width: 100%;
-        min-height: 850px;
+        min-height: 550px;
         height: auto;
         background-position: center;
         background-size: cover;
@@ -1318,7 +1318,7 @@ body.darkmode .ret4 {
 
     .div23 {
         width: auto;
-        height: 60px;
+        height: 80px;
         margin-left: 0;
         gap: 15px;
     }
