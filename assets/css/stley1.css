@@ -175,47 +175,47 @@
   cursor: pointer;
 }
 .qwe {
-    width: 805px;
-    height: 300px;
-    /* border: 1px solid green; */
-    color: white;
-    margin-top: 330px;
-    margin-left: 275px;
+  width: 805px;
+  height: 300px;
+  /* border: 1px solid green; */
+  color: white;
+  margin-top: 330px;
+  margin-left: 275px;
 }
 .ass {
-    font-weight: 900;
-    font-size: 70px;
+  font-weight: 900;
+  font-size: 70px;
 }
 .qwee {
-    font-weight: 700;
-    font-size: 40px;
+  font-weight: 700;
+  font-size: 40px;
 }
 .ddd {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 .qwe button {
-    width: 165.16px;
-    height: 55.75px;
-    border-radius: 16px;
-    border: none;
+  width: 165.16px;
+  height: 55.75px;
+  border-radius: 16px;
+  border: none;
 }
 .qwe1 button {
-    width: 60px;
-    height: 40px;
-    border-radius: 30px;
+  width: 60px;
+  height: 40px;
+  border-radius: 30px;
 }
 .qwe1 button i {
-    font-weight: 900;
-    font-size: 30px;
+  font-weight: 900;
+  font-size: 30px;
 }
 .qwe1 {
-    width: 1800px;
-    height: 50px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: -200px;
+  width: 1800px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -200px;
 }
 /* =================================================== */
 .ret {
@@ -228,11 +228,55 @@
   margin-left: 260px;
 }
 .ret h2 {
-    font-weight: 700;
-    font-size: 40px;
+  font-weight: 700;
+  font-size: 40px;
 }
 /* .qwe2 {
     width: ;
     height: ;
 } */
 
+.car-container {
+  width: 1430px;
+  height: 203.59px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+
+.car-card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: #071329;
+}
+
+.car-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #f7f9fb;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+}
+
+.car-icon i {
+  font-size: 24px;
+}
+
+.car-card p {
+  font-size: 16px;
+  font-weight: 500;
+}
