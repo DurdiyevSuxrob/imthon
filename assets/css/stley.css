@@ -1946,7 +1946,7 @@ body.darkmode .ret4 {
         width: 100%;
     }
 
-    /* ================= TERMS ================= */
+   
 
     .termis {
         width: 100%;
@@ -1958,69 +1958,17 @@ body.darkmode .ret4 {
         text-align: center;
     }
 
-    .termis button {
-        flex-shrink: 0;
-    }
+    
     .bmw {
       display: grid;
     }
+
+}
+.termis a {
+  font-weight: 900;
+  font-size: 40px;
 }
 
 
 
 
-/* @media (max-width: 480px) {
-
-    .div4 {
-        margin-top: 200px;
-    }
-
-    .div4 p {
-        font-size: 23px;
-    }
-
-    .div4 h2 {
-        font-size: 36px;
-    }
-
-    .div5 {
-        margin-top: 35px;
-    }
-
-    .ret3 {
-        max-width: 95vw;
-        height: 190px;
-    }
-
-    .ret3 img {
-        height: 190px;
-    }
-
-    .ret3i {
-        height: 190px;
-    }
-
-    .ret3i p {
-        font-size: 13px;
-    }
-
-    .rqm {
-        font-size: 17px;
-    }
-
-    .bmw {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .sound {
-        grid-template-columns: 1fr;
-    }
-
-    .company {
-        grid-template-columns: 1fr;
-    }
-
-    .ford {
-        grid-template-columns: 1fr;
-    }
-} */
