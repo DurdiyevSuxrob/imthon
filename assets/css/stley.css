@@ -1960,6 +1960,9 @@ body.darkmode .ret4 {
     .termis button {
         flex-shrink: 0;
     }
+    .bmw {
+      display: grid;
+    }
 }
 
 
