@@ -490,4 +490,46 @@
 .spec {
   width: 1430px;
   height: 523.14px;
+  border: 1px solid black;
+  margin-left: 260px;
+  margin-top: 30px;
+
+}
+.spec1 {
+  width: 1430px;
+  /* height: 433.14px; */
+  border: 1px solid black;
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+
+
+}
+
+.tayota1 {
+  width: 327.5px;
+  height: 432.81px;
+  border: 1px solid rgb(193, 191, 191);
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+.tayota1 img {
+  width: 326px;
+  height: 218.33px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+
+}
+.tayota1 h2 {
+  font-weight: 900;
+  font-size: 18px;
+  margin-left: 31px;
+  margin-top: 2px;
+}
+.tayota1 p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 31px;
+
 }
