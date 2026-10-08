@@ -493,7 +493,7 @@
 /* ================================ */
 
 .main12 {
-  width: 1660px;
+  width: 1430px;
   height: 304px;
   margin: 10px 240px;
   overflow: hidden;
@@ -504,7 +504,7 @@
 }
 
 .main12 .main12-box {
-  width: 1660px;
+  width: 1430px;
   height: 214px;
   display: flex;
   gap: 15px;
@@ -565,14 +565,16 @@
 }
 
 /* ^foter */
-.main12 .main12-foter {
-  width: 140px;
+.main12-foter {
+  width: 1633px;
   height: 40px;
   display: flex;
   justify-content: space-between;
+  margin-left: 140px;
+  margin-top: -220px;
 }
 
-.main12 .main12-foter .btn-left {
+.btn-left {
   width: 60px;
   height: 40px;
   border: 1px solid gray;
@@ -581,7 +583,7 @@
   background-color: transparent;
 }
 
-.main12 .main12-foter .btn-right {
+ .btn-right {
   width: 60px;
   height: 40px;
   border: 1px solid gray;
@@ -594,6 +596,52 @@
   display: flex;
   gap: 5px;
 }
+/* ============================ */
+.team {
+  width: 1430px;
+  height: 80px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 260px;
+  color: black;
+  margin-top: 190px;
+}
+.team h2 {
+  font-size: 40px;
+  font-weight: 700;
+  
+}
+.sound {
+  width: 1430px;
+  height: 441.09px;
+  /* border: 1px solid black; */
+  margin-left: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+.hanry {
+  width: 327.5px;
+  height: 440px;
+  /* border: 1px solid black; */
+}
+.hanry img {
+  width: 327.5px;
+  height: 398.17px;
+  border-radius: 16px;
+}
+.hanry b {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+.hanry p {
+  /* color: black; */
+  font-size: 14px;
+  font-weight: 400;
+}
+/* ====================================== */
 
 
 
