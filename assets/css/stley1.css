@@ -675,6 +675,99 @@
     background-color: #f8f8f8;
 }
 /* ================================ */
+.shopp {
+  width: 1800px;
+  height: 527.5px;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+}
+.used {
+  width: 900px;
+  height: 527.5px;
+  /* border: 1px solid black; */
+  background-color: rgb(238, 240, 252);
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+
+  color: black;
+}
+.used h2 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 180px;
+  margin-top: 150px;
+}
+.button i {
+  font-weight: 900;
+  font-size: 20px;
+}
+.used p {
+  margin-left: 180px;
+  margin-top: 15px;
+}
+.apple {
+  width: 500px;
+  height: 70px;
+  /* border: 1px solid black; */
+  margin-left: 180px;
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+.apple1 {
+  width: 206.84px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 16px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.apple1 i {
+  /* width: 19.06px;
+  height: 25px; */
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  /* border: 1px solid black; */
+  margin-top: -6px;
+}
+.ri-apple-fill {
+  margin-top: 17px;
+}
+.cziq {
+  width: 140px;
+  height: 50px;
+  border-left: 2px solid white;
+  color: black;
+}
+.cziq b {
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+}
+.cziq small {
+  margin-left: 20px;
+  color: white;
+}
+.cziq b {
+  margin-left: 20px;
+}
+.tel {
+  width: 900px;
+  height: 527.5px;
+  /* border: 1px solid black; */
+}
+.tel img {
+  width: 900px;
+  height: 527.5px;
+}
+/* ====================================== */
 
 
 
