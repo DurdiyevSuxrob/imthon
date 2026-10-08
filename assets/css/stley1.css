@@ -912,8 +912,252 @@
   width: 1920px;
   height: 648.22px;
   border: 1px solid black;
-  background-image: ;
+  background-image:url(../img/image\ copy\ 45.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
 }
+.make h2 {
+  margin-left: 275px;
+  font-size: 70px;
+  font-weight: 500;
+  color: white;
+  margin-top: 175px;
+}
+.make button {
+  width: 296.48px;
+  height: 63.22px;
+  border-radius: 12px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  margin-left: 275px;
+  
+}
+/* ===================================== */
+.join {
+  width: 1920px;
+  height: 357.25px;
+  background-color: #050b20;
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.carhut {
+  width: 490px;
+  height: 200px;
+  /* border: 1px solid red; */
+}
+.carhut1 {
+  width: 168px;
+  height: 112px;
+  /* border: 1px solid red; */
+  color: white;
+  text-align: center;
+  display: flex;
+  padding: 30px;
+  margin-top: -50px;
+}
+.carhut1 i {
+  margin-top: 50px;
+}
+.carhut1 p {
+  margin-top: 50px;
+}
+.sint {
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.com {
+  width: 450px;
+  height: 46px;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.com1 {
+  width: 211.31px;
+  height: 46px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 44px;
+}
+.com1 i {
+  /* margin-left: 35px; */
+  font-weight: 900;
+  font-size: 18px;
+}
+.singup {
+  width: 427.59px;
+  height: 250px;
+  /* border: 1px solid white; */
+}
+.singup h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.singup p {
+  margin-top: 5px;
+}
+.com2 {
+  width: 427.59px;
+  height: 69.76px;
+  border-radius: 12px;
+  background-color: #ffffff1a;
+  margin-top: 5px;
+}
+.com2 p {
+  padding: 25px;
+  color: #ffffff;
+}
+.com3 {
+  width: 427.59px;
+  height: 69.76px;
+  border-radius: 12px;
+  background-color: #405ff2;
+  color: #ffffff;
+  border: none;
+}
+.company {
+  width: 1920px;
+  height: 460px;
+  background-color: #050b20;
+  /* border: 1px solid white; */
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: -50px;
+  border-top: 1px solid #a29f9f;
+}
+.comp {
+  width: 224px;
+  height: 325px;
+  /* border: 1px solid white; */
+  margin-left: 60px;
+  /* text-align: center; */
+}
+.comp10 {
+  width: 284.59px;
+  height: 325px;
+  /* border: 1px solid white; */
+  margin-left: 60px;
+  /* text-align: center; */
+}
+.comp p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+}
+.comp b {
+  font-weight: 900;
+  font-size: 20px;
+  /* margin-left: 22px; */
+}
+.ww {
+  margin-left: 22px;
+}
+.comp1 {
+  width: 206.84px;
+  height: 70px;
+  /* border: 1px solid white; */
+  border-radius: 16px;
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  background-color: #ffffff12;
+  margin-left: 22px;
+}
+.ri-apple-fill {
+  margin-top: 17px;
+}
+.cziqq {
+  width: 140px;
+  height: 50px;
+  /* border-left: 2px solid #405FF2; */
+  /* color: #405FF2; */
+  color: white;
+}
+.cziqq b {
+  /* color: #405FF2; */
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+  /* margin-left: 22px; */
+}
+.cziqq small {
+  margin-left: 20px;
+}
+.cziqq b {
+  margin-left: 20px;
+}
+.comp1 i {
+  /* width: 19.06px;
+  height: 25px; */
+  /* color: #405FF2; */
+  font-weight: 400;
+  font-size: 25px;
+  /* border: 1px solid black; */
+  margin-top: -6px;
+}
+.brow {
+  margin-top: 50px;
+}
+.comp2 {
+  width: 210px;
+  height: 40px;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 6px;
+}
+.ret6 {
+  margin-top: 90px;
+}
+
+.w {
+  margin-left: 22px;
+}
+.comp2 i {
+  font-weight: 900;
+  color: #f1efef;
+  font-size: 20px;
+  /* margin-left: 22px; */
+}
+.termis {
+  width: 1920px;
+  height: 99.09px;
+  background-color: #050b20;
+  color: #a29f9f;
+  border-top: 1px solid #a29f9f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.termis button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #405ff2;
+  color: white;
+}
+.termis button i {
+  font-weight: 900;
+  font-size: 20px;
+}
+
 
 
 
