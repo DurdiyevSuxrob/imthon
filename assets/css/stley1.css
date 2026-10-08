@@ -642,7 +642,39 @@
   font-weight: 400;
 }
 /* ====================================== */
+.h2h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-left: 260px;
+}
+.categ {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 17px 8px;
+    margin-left: 260px;
+    margin-top: 10px;
+}
 
+.categ button {
+    height: 41px;
+    padding: 0 18px;
+    border: 1px solid #e5e5e5;
+    border-radius: 11px;
+    background-color: white;
+    color: #111827;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+  
+
+}
+.categ button:hover {
+    border-color: #111827;
+    background-color: #f8f8f8;
+}
+/* ================================ */
 
 
 
