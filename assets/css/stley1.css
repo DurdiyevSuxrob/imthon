@@ -1335,8 +1335,8 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .div33 a,
-  .div33 p,
+  .div33 a
+  .div33 p
   .btn1 {
     font-size: 13px;
   }
@@ -1429,14 +1429,14 @@ body.darkmode .btn-left .btn-right i {
     gap: 12px;
   }
 
-  .ret,
-  .car-container,
-  .ret1,
-  .grat,
-  .online,
-  .Brow,
-  .team,
-  .sound,
+  .ret
+  .car-container
+  .ret1
+  .grat
+  .online
+  .Brow
+  .team
+  .sound
   .bmw {
     width: calc(100% - 32px);
     max-width: 100%;
@@ -1452,11 +1452,11 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .ret h2,
-  .Brow h2,
-  .team h2,
-  .h2h2,
-  .o,
+  .ret h2
+  .Brow h2
+  .team h2
+  .h2h2
+  .o
   .ret4 h2 {
     font-size: clamp(24px, 5vw, 34px);
   }
@@ -1533,8 +1533,8 @@ body.darkmode .btn-left .btn-right i {
     min-width: 0;
   }
 
-  .fff i,
-  .fff .m1,
+  .fff i
+  .fff .m1
   .fff p {
     margin-left: 6px;
   }
@@ -1548,8 +1548,8 @@ body.darkmode .btn-left .btn-right i {
     flex-direction: column;
   }
 
-  .online1,
-  .imagee,
+  .online1
+  .imagee
   .imagee img {
     width: 100%;
     max-width: 100%;
