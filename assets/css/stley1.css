@@ -1517,8 +1517,6 @@ body.darkmode .btn-left .btn-right i {
     display: block;
     width: 100%;
     height: auto;
-    aspect-ratio: 1.5 / 1;
-    object-fit: cover;
   }
 
   .tayota h2,
@@ -1543,7 +1541,6 @@ body.darkmode .btn-left .btn-right i {
     margin-left: 6px;
   }
 
-  /* ONLINE QISMI */
   .online {
     height: auto;
     margin-top: 70px;
@@ -1552,8 +1549,8 @@ body.darkmode .btn-left .btn-right i {
     flex-direction: column;
   }
 
-  .online1,
-  .imagee,
+  .online1
+  .imagee
   .imagee img {
     width: 100%;
     max-width: 100%;
@@ -1568,17 +1565,15 @@ body.darkmode .btn-left .btn-right i {
     font-size: clamp(26px, 5vw, 36px);
   }
 
-  .imagee,
+  .imagee
   .imagee img {
     height: auto;
   }
 
   .imagee img {
     display: block;
-    object-fit: cover;
   }
 
-  /* BRENDLAR */
   .ret4 {
     width: 100%;
     height: auto;
@@ -1607,7 +1602,6 @@ body.darkmode .btn-left .btn-right i {
 
   .ret6 img {
     max-width: 65px;
-    object-fit: contain;
   }
 
   .ret6 b {
@@ -1621,7 +1615,6 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  /* KARTOCHKALAR */
   .main12 {
     width: calc(100% - 32px);
     height: 304px;
@@ -1629,14 +1622,12 @@ body.darkmode .btn-left .btn-right i {
   }
 
   .main12 .main12-box {
-    width: max-content;
     height: 214px;
     gap: 12px;
   }
 
   .main12 .main12-box .box3 {
     width: min(280px, calc(100vw - 48px));
-    flex-shrink: 0;
   }
 
   .main12-foter {
@@ -1644,7 +1635,6 @@ body.darkmode .btn-left .btn-right i {
     margin: 12px 16px 0;
   }
 
-  /* JAMOA */
   .team {
     height: auto;
     margin-top: 90px;
@@ -1671,7 +1661,6 @@ body.darkmode .btn-left .btn-right i {
     width: 100%;
     height: auto;
     aspect-ratio: 0.82 / 1;
-    object-fit: cover;
   }
 
   .hanry b {
@@ -1741,7 +1730,6 @@ body.darkmode .btn-left .btn-right i {
     border-radius: 14px;
   }
 
-  /* PASTKI QISM */
   .wep {
     width: 100%;
     height: auto;
@@ -1751,8 +1739,7 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .o,
-  .o1 {
+  .o.o1 {
     margin-left: 0;
   }
 
@@ -1763,13 +1750,7 @@ body.darkmode .btn-left .btn-right i {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 12px;
   }
-
-  .audo,
-  .Bmw,
-  .Ford,
-  .benz,
-  .peu,
-  .volk {
+.audo.Bmw.Ford.benz.peu.volk {
     width: 100%;
     height: 145px;
     min-width: 0;
@@ -1777,11 +1758,11 @@ body.darkmode .btn-left .btn-right i {
     padding: 10px 4px;
   }
 
-  .aud,
-  .Bmw img,
-  .Ford img,
-  .benz img,
-  .peu img,
+  .aud
+  .Bmw img
+  .Ford img
+  .benz img
+  .peu img
   .volk img {
     display: block;
     width: 75px;
@@ -1791,11 +1772,11 @@ body.darkmode .btn-left .btn-right i {
     object-fit: contain;
   }
 
-  .audo b,
-  .Bmw b,
-  .Ford b,
-  .benz b,
-  .peu b,
+  .audo b
+  .Bmw b
+  .Ford b
+  .benz b
+  .peu b
   .volk b {
     margin: 0;
     font-size: 14px;
@@ -1825,7 +1806,6 @@ body.darkmode .btn-left .btn-right i {
     padding: 35px 16px;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: flex-start;
   }
 
   .carhut,
@@ -1938,7 +1918,6 @@ body.darkmode .btn-left .btn-right i {
 
   .main8 .car-list1 .car-card1 {
     width: min(300px, calc(100vw - 48px));
-    flex-shrink: 0;
   }
 
   .main8 .car-list1 .car-card1 .img,
@@ -1950,9 +1929,8 @@ body.darkmode .btn-left .btn-right i {
     width: calc(100% - 28px);
   }
 
-  .main8 .car-list1 .car-card1 .car-footer .car1,
-  .main8 .car-list1 .car-card1 .car-footer .car2,
-  .main8 .car-list1 .car-card1 .car-footer .car3 {
+  .main8 .car-list1 .car-card1 .car-footer .car1
+  .car2.car3 {
     width: 100%;
   }
 
@@ -1983,11 +1961,7 @@ body.darkmode .btn-left .btn-right i {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .rtrt,
-  .ret5,
-  .sound,
-  .bmw,
-  .company {
+  .rtrt.ret5.sound.bmw.company {
     grid-template-columns: 1fr;
   }
 
