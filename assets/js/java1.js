@@ -18,7 +18,7 @@ const main12Boxlength = box3.length //* SHU JOYIDA XATO TUZATILDI
 
 let hisoblagich1 = 0;
 
-const box3Width = 300;
+const box3Width = 169;
 
 leftBtn.addEventListener("click", () => {
     if(hisoblagich1 > 0) {
@@ -46,32 +46,35 @@ btn2.addEventListener("click", () => {
         btn2.textContent = "☀️"
     }
 })
-const carlist1  = document.querySelector(".car-list1")
-const btnleft1  = document.querySelector(".btn-left1")
-const btnright1  = document.querySelector(".btn-right1")
-const main6Box1 = document.querySelectorAll(".car-card1")
+const main2Box = document.querySelector(".car-list1")
+const left = document.querySelector(".btn-left1")
+const right = document.querySelector(".btn-right1")
+const main2Box1 = document.querySelectorAll(".car-card1")
 
-const main6Boxlength = main6Box.length
 
-// let hisoblagich1 = 0;
+const main2Box1length = main2Box1.length // kartalar uzunligi
 
-// const box3Width = 300;
 
-leftBtn.addEventListener("click", () => {
-    if(hisoblagich1 > 0) {
-        hisoblagich1--;
-        updateCarousel1();
+let hisoblagich = 0;
+
+const cardWidth = 169;
+
+left.addEventListener("click", () => {
+    if(hisoblagich > 0) {
+        hisoblagich--;
+        updateCarousel();
     }
 })
-rightBtn.addEventListener("click", () => {
-    if(hisoblagich1 < main12Boxlength) {
-        hisoblagich1++;
-        updateCarousel1();
-    }
+right.addEventListener("click", () => {
+    if(hisoblagich < main2Box1length) {
+        hisoblagich++;
+        updateCarousel();
+    }       
 })
 
-function updateCarousel1() {
-    const moveAmount1 = -hisoblagich1 * box3Width
-    main12Box.style.transform = `translateX(${moveAmount1}px)`
+function updateCarousel() {
+    
+    const moveAmount = -hisoblagich * cardWidth
+
+    main2Box.style.transform = `translateX(${moveAmount}px)`
 }
-

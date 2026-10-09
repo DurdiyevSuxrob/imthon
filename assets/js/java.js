@@ -34,7 +34,7 @@ const ret3 = document.querySelectorAll(".ret3");
 const ret3Length = ret3.length;
 let hisoblagich = 0;
 
-const ret3width = 400;
+const ret3width = 169;
 
 k2.addEventListener("click", () => {
   if (hisoblagich < ret3Length) {
@@ -64,7 +64,7 @@ const main12Boxlength = box3.length //* SHU JOYIDA XATO TUZATILDI
 
 let hisoblagich1 = 0;
 
-const box3Width = 300;
+const box3Width = 169;
 
 leftBtn.addEventListener("click", () => {
     if(hisoblagich1 > 0) {
