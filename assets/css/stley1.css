@@ -1200,6 +1200,132 @@
 } */
  /* ===================== */
 
+.main8 {
+    width: 1430px;
+    height: 523px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main8 .car-list1 {
+    width: 1430px;
+    height: 443px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5px;
+
+
+}
+
+.main8 .car-list1 .car-card1 {
+    width: 328px;
+    height: 433px;
+    box-shadow: 0px 0px 2px 1px gray;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* *img */
+.main8 .car-list1 .car-card1 .img {
+    width: 328px;
+    height: 218px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+
+.main8 .car-list1 .car-card1 .img img {
+    width: 328px;
+    height: 218px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.main8 .car-list1 .car-card1 .car-footer {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.main8 .car-list1 .car-card1 .car-footer .car1 {
+    width: 300px;
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.main8 .car-list1 .car-card1 .car-footer .car1 p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* ^ car2 */
+.main8 .car-list1 .car-card1 .car-footer .car2 {
+    width: 300px;
+    height: 69px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main8 .car-list1 .car-card1 .car-footer .car2 div {
+    width: 84px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+/* ^car3 */
+.main8 .car-list1 .car-card1 .car-footer .car3 {
+    width: 300px;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main8 .car-list1 .car-card1 .car-footer .car3 p {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.main8 .car-list1 .car-card1 .car-footer .car3 span {
+    color: blue;
+}
+
+.main8 .btn-footer {
+    width: 130px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main8 .btn-footer .btn-left1 {
+    width: 60px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.main8 .btn-footer .btn-right1 {
+    width: 60px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    font-size: 30px;
+
+}
 
 /* ========================= */
 body.darkmode {
