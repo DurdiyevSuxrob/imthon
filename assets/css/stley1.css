@@ -1274,18 +1274,14 @@ body.darkmode .btn-left .btn-right i {
 }
 /* ================== */
 @media (max-width: 768px) {
-  html,
+  html
   body {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
   }
 
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
+  
 
   .div {
     width: 100%;
@@ -1339,8 +1335,8 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .div33 a,
-  .div33 p,
+  .div33 a
+  .div33 p
   .btn1 {
     font-size: 13px;
   }
@@ -1349,7 +1345,6 @@ body.darkmode .btn-left .btn-right i {
     font-size: 24px;
   }
 
-  /* MODAL */
   .modal {
     padding: 16px;
     z-index: 9999;
@@ -1366,9 +1361,10 @@ body.darkmode .btn-left .btn-right i {
     gap: 16px;
   }
 
-  .modal .modal-container .h3.label
-   .label input
-   .sumbit {
+  .modal .modal-container .h3,
+  .modal .modal-container .label,
+  .modal .modal-container .label input,
+  .modal .modal-container .sumbit {
     width: 100%;
     max-width: 100%;
   }
