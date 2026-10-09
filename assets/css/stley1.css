@@ -1281,11 +1281,7 @@ body.darkmode .btn-left .btn-right i {
     overflow-x: hidden;
   }
 
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
+  
 
   .div {
     width: 100%;
@@ -1339,9 +1335,7 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .div33 a,
-  .div33 p,
-  .btn1 {
+  .div33 a.div33 p.btn1 {
     font-size: 13px;
   }
 
@@ -1349,10 +1343,8 @@ body.darkmode .btn-left .btn-right i {
     font-size: 24px;
   }
 
-  /* MODAL */
   .modal {
     padding: 16px;
-    z-index: 9999;
   }
 
   .modal .modal-container {
@@ -1366,10 +1358,9 @@ body.darkmode .btn-left .btn-right i {
     gap: 16px;
   }
 
-  .modal .modal-container .h3,
-  .modal .modal-container .label,
-  .modal .modal-container .label input,
-  .modal .modal-container .sumbit {
+  .modal .modal-container .h3.label
+   .label input
+   .sumbit {
     width: 100%;
     max-width: 100%;
   }
@@ -1388,7 +1379,7 @@ body.darkmode .btn-left .btn-right i {
     gap: 8px;
   }
 
-  .modal .modal-container .label label {
+  .modal .modal-container .label  {
     font-size: 18px;
   }
 
@@ -1401,7 +1392,6 @@ body.darkmode .btn-left .btn-right i {
     min-height: 42px;
   }
 
-  /* ASOSIY QISM */
   .qwe {
     width: calc(100% - 40px);
     height: auto;
@@ -1433,14 +1423,14 @@ body.darkmode .btn-left .btn-right i {
     gap: 12px;
   }
 
-  .ret,
-  .car-container,
-  .ret1,
-  .grat,
-  .online,
-  .Brow,
-  .team,
-  .sound,
+  .ret
+  .car-container
+  .ret1
+  .grat
+  .online
+  .Brow
+  .team
+  .sound
   .bmw {
     width: calc(100% - 32px);
     max-width: 100%;
@@ -1456,16 +1446,14 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .ret h2,
-  .Brow h2,
-  .team h2,
-  .h2h2,
-  .o,
+  .ret h2
+  .Brow h2
+  .team h2
+  .h2h2.o
   .ret4 h2 {
     font-size: clamp(24px, 5vw, 34px);
   }
 
-  /* MASHINA KATEGORIYALARI */
   .car-container {
     height: auto;
     display: grid;
@@ -1490,7 +1478,6 @@ body.darkmode .btn-left .btn-right i {
     margin-top: 20px;
     gap: 12px;
     overflow-x: auto;
-    white-space: nowrap;
   }
 
   .grat {
@@ -1519,25 +1506,26 @@ body.darkmode .btn-left .btn-right i {
     height: auto;
   }
 
-  .tayota h2,
+  .tayota h2
   .tayota p {
     margin-left: 12px;
     margin-right: 12px;
   }
 
-  .melis,
+  .melis
   .vev {
     width: calc(100% - 24px);
     margin-left: 12px;
+  }
+  .melis {
+    width: 100px;
   }
 
   .fff {
     min-width: 0;
   }
 
-  .fff i,
-  .fff .m1,
-  .fff p {
+  .fff i.fff .m1.fff p {
     margin-left: 6px;
   }
 
@@ -1549,9 +1537,7 @@ body.darkmode .btn-left .btn-right i {
     flex-direction: column;
   }
 
-  .online1
-  .imagee
-  .imagee img {
+  .online1.imagee.imagee img {
     width: 100%;
     max-width: 100%;
   }
