@@ -1552,8 +1552,8 @@ body.darkmode .btn-left .btn-right i {
     flex-direction: column;
   }
 
-  .online1
-  .imagee
+  .online1,
+  .imagee,
   .imagee img {
     width: 100%;
     max-width: 100%;
@@ -1571,7 +1571,6 @@ body.darkmode .btn-left .btn-right i {
   .imagee,
   .imagee img {
     height: auto;
-     object-fit: cover;
   }
 
   .imagee img {
