@@ -1366,8 +1366,8 @@ body.darkmode .btn-left .btn-right i {
     gap: 16px;
   }
 
-  .modal .modal-container .h3
-  .modal .modal-container .label
+  .modal .modal-container .h3,
+  .modal .modal-container .label,
   .modal .modal-container .label input,
   .modal .modal-container .sumbit {
     width: 100%;
@@ -1433,14 +1433,14 @@ body.darkmode .btn-left .btn-right i {
     gap: 12px;
   }
 
-  .ret
-  .car-container
-  .ret1
-  .grat
-  .online
-  .Brow
-  .team
-  .sound
+  .ret,
+  .car-container,
+  .ret1,
+  .grat,
+  .online,
+  .Brow,
+  .team,
+  .sound,
   .bmw {
     width: calc(100% - 32px);
     max-width: 100%;
@@ -1456,11 +1456,11 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .ret h2
-  .Brow h2
-  .team h2
-  .h2h2
-  .o
+  .ret h2,
+  .Brow h2,
+  .team h2,
+  .h2h2,
+  .o,
   .ret4 h2 {
     font-size: clamp(24px, 5vw, 34px);
   }
@@ -1517,6 +1517,7 @@ body.darkmode .btn-left .btn-right i {
     display: block;
     width: 100%;
     height: auto;
+    aspect-ratio: 1.5 / 1;
     object-fit: cover;
   }
 
@@ -1551,8 +1552,8 @@ body.darkmode .btn-left .btn-right i {
     flex-direction: column;
   }
 
-  .online1,
-  .imagee,
+  .online1
+  .imagee
   .imagee img {
     width: 100%;
     max-width: 100%;
@@ -1776,17 +1777,18 @@ body.darkmode .btn-left .btn-right i {
     padding: 10px 4px;
   }
 
-  .aud
-  .Bmw img
-  .Ford img
-  .benz img
-  .peu img
+  .aud,
+  .Bmw img,
+  .Ford img,
+  .benz img,
+  .peu img,
   .volk img {
     display: block;
     width: 75px;
     height: 75px;
     max-width: 100%;
     margin: 0 auto 8px;
+    object-fit: contain;
   }
 
   .audo b
@@ -1936,6 +1938,7 @@ body.darkmode .btn-left .btn-right i {
 
   .main8 .car-list1 .car-card1 {
     width: min(300px, calc(100vw - 48px));
+    
   }
 
   .main8 .car-list1 .car-card1 .img,
