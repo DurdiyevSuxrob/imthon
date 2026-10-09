@@ -1571,6 +1571,7 @@ body.darkmode .btn-left .btn-right i {
   .imagee,
   .imagee img {
     height: auto;
+     object-fit: cover;
   }
 
   .imagee img {
@@ -1777,8 +1778,8 @@ body.darkmode .btn-left .btn-right i {
     padding: 10px 4px;
   }
 
-  .aud,
-  .Bmw img,
+  .aud
+  .Bmw img
   .Ford img,
   .benz img,
   .peu img,
@@ -1983,10 +1984,10 @@ body.darkmode .btn-left .btn-right i {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .rtrt,
-  .ret5,
-  .sound,
-  .bmw,
+  .rtrt
+  .ret5
+  .sound
+  .bmw
   .company {
     grid-template-columns: 1fr;
   }
@@ -2011,7 +2012,4 @@ body.darkmode .btn-left .btn-right i {
     justify-content: center;
     text-align: center;
   }
-}
-.online {
-  border: 1px solid green;
 }
