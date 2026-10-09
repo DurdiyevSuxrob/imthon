@@ -679,7 +679,7 @@
   width: 1800px;
   height: 527.5px;
   /* border: 1px solid black; */
-  margin: auto;
+  margin-left: 80px;
   margin-top: 50px;
   display: flex;
 }
@@ -894,6 +894,7 @@
   border-radius: 16px;
   border: 1px solid rgb(167, 166, 166);
   background-color: #ffffff;
+  
 }
 .volk img {
   width: 100px;
@@ -1156,6 +1157,16 @@
 .termis button i {
   font-weight: 900;
   font-size: 20px;
+}
+.dls {
+  width: 1430px;
+  height: 523.14px;
+  border: 1px solid black;
+  margin-top: -50px;
+  margin-left: 260px;
+}
+.Brow {
+  margin-top: 200px;
 }
 
 
