@@ -46,4 +46,32 @@ btn2.addEventListener("click", () => {
         btn2.textContent = "☀️"
     }
 })
+const main12B = document.querySelector(".main12-box")
+const leftBtn = document.querySelector(".btn-left")
+const rightBtn = document.querySelector(".btn-right")
+const box3 = document.querySelectorAll(".box3")
+
+const main12Boxlength = box3.length //* SHU JOYIDA XATO TUZATILDI
+
+let hisoblagich1 = 0;
+
+const box3Width = 300;
+
+leftBtn.addEventListener("click", () => {
+    if(hisoblagich1 > 0) {
+        hisoblagich1--;
+        updateCarousel1();
+    }
+})
+rightBtn.addEventListener("click", () => {
+    if(hisoblagich1 < main12Boxlength) {
+        hisoblagich1++;
+        updateCarousel1();
+    }
+})
+
+function updateCarousel1() {
+    const moveAmount1 = -hisoblagich1 * box3Width
+    main12Box.style.transform = `translateX(${moveAmount1}px)`
+}
 
