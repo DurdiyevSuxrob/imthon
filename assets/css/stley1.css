@@ -1272,6 +1272,9 @@ body.darkmode .box3 {
 body.darkmode .btn-left .btn-right i {
   color: white;
 }
+body.darkmode .main12-foter button i {
+  color: white;
+}
 /* ================== */
 @media (max-width: 768px) {
   html,
