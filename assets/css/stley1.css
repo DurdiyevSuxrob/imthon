@@ -1517,7 +1517,8 @@ body.darkmode .btn-left .btn-right i {
     display: block;
     width: 100%;
     height: auto;
-
+    aspect-ratio: 1.5 / 1;
+    object-fit: cover;
   }
 
   .tayota h2,
