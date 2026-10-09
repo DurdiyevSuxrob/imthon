@@ -1281,11 +1281,7 @@ body.darkmode .btn-left .btn-right i {
     overflow-x: hidden;
   }
 
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
+  
 
   .div {
     width: 100%;
@@ -1366,8 +1362,8 @@ body.darkmode .btn-left .btn-right i {
     gap: 16px;
   }
 
-  .modal .modal-container .h3,
-  .modal .modal-container .label,
+  .modal .modal-container .h3
+  .modal .modal-container .label
   .modal .modal-container .label input,
   .modal .modal-container .sumbit {
     width: 100%;
@@ -1433,14 +1429,14 @@ body.darkmode .btn-left .btn-right i {
     gap: 12px;
   }
 
-  .ret,
-  .car-container,
-  .ret1,
-  .grat,
-  .online,
-  .Brow,
-  .team,
-  .sound,
+  .ret
+  .car-container
+  .ret1
+  .grat
+  .online
+  .Brow
+  .team
+  .sound
   .bmw {
     width: calc(100% - 32px);
     max-width: 100%;
@@ -1456,11 +1452,11 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .ret h2,
-  .Brow h2,
-  .team h2,
-  .h2h2,
-  .o,
+  .ret h2
+  .Brow h2
+  .team h2
+  .h2h2
+  .o
   .ret4 h2 {
     font-size: clamp(24px, 5vw, 34px);
   }
@@ -1517,7 +1513,6 @@ body.darkmode .btn-left .btn-right i {
     display: block;
     width: 100%;
     height: auto;
-    /* aspect-ratio: 1.5 / 1; */
     object-fit: cover;
   }
 
