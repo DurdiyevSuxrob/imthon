@@ -1346,12 +1346,13 @@ body.darkmode .btn-left .btn-right i {
   }
   .btn1 {
     margin-top: -142px;
-    margin-left: -200px;
+    margin-left: -220px;
   }
 
   .btn2 {
     font-size: 24px;
-    margin-top: -172px;
+    margin-top: -142px;
+    margin-left: -200px;
   }
   .div33 p {
     display: none;
