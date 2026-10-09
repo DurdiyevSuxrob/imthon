@@ -1783,12 +1783,12 @@ body.darkmode .btn-left .btn-right i {
   .benz img,
   .peu img,
   .volk img {
-    display: block;
     width: 75px;
     height: 75px;
     max-width: 100%;
     margin: 0 auto 8px;
-    object-fit: contain;
+    display: grid;
+    
   }
 
   .audo b,
