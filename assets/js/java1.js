@@ -46,16 +46,16 @@ btn2.addEventListener("click", () => {
         btn2.textContent = "☀️"
     }
 })
-const main12B = document.querySelector(".main12-box")
-const leftBtn = document.querySelector(".btn-left")
-const rightBtn = document.querySelector(".btn-right")
-const box3 = document.querySelectorAll(".box3")
+const carlist1  = document.querySelector(".car-list1")
+const btnleft1  = document.querySelector(".btn-left1")
+const btnright1  = document.querySelector(".btn-right1")
+const main6Box1 = document.querySelectorAll(".car-card1")
 
-const main12Boxlength = box3.length //* SHU JOYIDA XATO TUZATILDI
+const main6Boxlength = main6Box.length
 
-let hisoblagich1 = 0;
+// let hisoblagich1 = 0;
 
-const box3Width = 300;
+// const box3Width = 300;
 
 leftBtn.addEventListener("click", () => {
     if(hisoblagich1 > 0) {
