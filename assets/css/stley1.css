@@ -1280,6 +1280,12 @@ body.darkmode .btn-left .btn-right i {
     max-width: 100%;
     overflow-x: hidden;
   }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
 
  
 
