@@ -37,3 +37,13 @@ function updateCarousel1() {
     const moveAmount1 = -hisoblagich1 * box3Width
     main12Box.style.transform = `translateX(${moveAmount1}px)`
 }
+const btn2 = document.getElementById("btn2")
+btn2.addEventListener("click", () => {
+    document.body.classList.toggle("darkmode")
+    if (document.body.classList.contains("darkmode")) {
+        btn2.textContent = "🌑"
+    } else {
+        btn2.textContent = "☀️"
+    }
+})
+

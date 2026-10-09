@@ -1162,8 +1162,8 @@
   width: 1430px;
   height: 523.14px;
   border: 1px solid black;
-  margin-top: -50px;
   margin-left: 260px;
+  margin-top: 50px;
 }
 .Brow {
   margin-top: 200px;
@@ -1173,6 +1173,9 @@
   height: 433px;
   border: 1px solid black;
   display: flex;
+  overflow: hidden;
+  
+
   
 }
 .dls2 {
@@ -1181,7 +1184,7 @@
   /* border: 1px solid black; */
   margin-top: 450px;
   display: flex;
-  justify-content: space-between;
+ 
 }
 .dls2 button {
   width: 60px;
@@ -1192,6 +1195,35 @@
   font-weight: 900;
   font-size: 30px;
 }
+.tayota {
+  display: inline-block;
+}
+/* ========================= */
+body.darkmode {
+  background-color: black;
+  color: white;
+}
+body.darkmode .car-container p {
+  color: white;
+} 
+body.darkmode .online1 button {
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+}
+body.darkmode .ret4 {
+  background-color: black;
+}
+body.darkmode .dls2 {
+  color: white;
+}
+body.darkmode .box3 {
+  color: black;
+}
+body.darkmode .btn-left .btn-right i{
+  color: white;
+}
+
 
 
 
