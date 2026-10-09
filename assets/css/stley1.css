@@ -1274,14 +1274,18 @@ body.darkmode .btn-left .btn-right i {
 }
 /* ================== */
 @media (max-width: 768px) {
-  html
+  html,
   body {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
   }
 
-  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 
   .div {
     width: 100%;
