@@ -1344,9 +1344,13 @@ body.darkmode .btn-left .btn-right i {
   .btn1 {
     font-size: 13px;
   }
+  .btn1 {
+    margin-top: -112px;
+  }
 
   .btn2 {
     font-size: 24px;
+    margin-top: -112px;
   }
 
   /* MODAL */
