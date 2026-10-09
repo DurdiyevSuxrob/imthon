@@ -306,13 +306,12 @@
   margin-left: 260px;
   margin-top: 20px;
   /* border: 1px solid black; */
-  
 }
 .tayota {
   width: 327.5px;
   height: 432.81px;
   border: 1px solid rgb(193, 191, 191);
-   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   border-radius: 16px;
 }
 .tayota img {
@@ -320,7 +319,6 @@
   height: 218.33px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
-
 }
 .tayota h2 {
   font-weight: 900;
@@ -333,7 +331,6 @@
   font-size: 14px;
   font-weight: 400;
   margin-left: 31px;
-
 }
 .melis {
   width: 265.5px;
@@ -350,7 +347,6 @@
   width: 90px;
   height: 69.29px;
   /* border: 1px solid black; */
-
 }
 .fff i {
   margin-left: 35px;
@@ -358,11 +354,9 @@
 }
 .fff .m1 {
   margin-left: 30px;
-
 }
 .fff p {
   margin-left: 20px;
-
 }
 .vev {
   width: 265.5px;
@@ -403,7 +397,6 @@
   height: 300px;
   /* border: 1px solid black; */
   margin-top: 150px;
-
 }
 .online1 h2 {
   font-size: 40px;
@@ -464,7 +457,6 @@
   width: 65px;
   height: 65px;
   /* border: 1px solid black; */
-  
 }
 .ret6 b {
   font-weight: 900;
@@ -487,8 +479,6 @@
   font-weight: 700;
   font-size: 40px;
 }
-
-
 
 /* ================================ */
 
@@ -584,7 +574,7 @@
   background-color: transparent;
 }
 
- .btn-right {
+.btn-right {
   width: 60px;
   height: 40px;
   border: 1px solid gray;
@@ -612,7 +602,6 @@
 .team h2 {
   font-size: 40px;
   font-weight: 700;
-  
 }
 .sound {
   width: 1430px;
@@ -650,30 +639,28 @@
   margin-left: 260px;
 }
 .categ {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 17px 8px;
-    margin-left: 260px;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 17px 8px;
+  margin-left: 260px;
+  margin-top: 10px;
 }
 
 .categ button {
-    height: 41px;
-    padding: 0 18px;
-    border: 1px solid #e5e5e5;
-    border-radius: 11px;
-    background-color: white;
-    color: #111827;
-    font-size: 12px;
-    font-weight: 500;
-    cursor: pointer;
-  
-
+  height: 41px;
+  padding: 0 18px;
+  border: 1px solid #e5e5e5;
+  border-radius: 11px;
+  background-color: white;
+  color: #111827;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
 }
 .categ button:hover {
-    border-color: #111827;
-    background-color: #f8f8f8;
+  border-color: #111827;
+  background-color: #f8f8f8;
 }
 /* ================================ */
 .shopp {
@@ -895,7 +882,6 @@
   border-radius: 16px;
   border: 1px solid rgb(167, 166, 166);
   background-color: #ffffff;
-  
 }
 .volk img {
   width: 100px;
@@ -914,7 +900,7 @@
   width: 1920px;
   height: 648.22px;
   border: 1px solid black;
-  background-image:url(../img/image\ copy\ 45.png) ;
+  background-image: url(../img/image\ copy\ 45.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -935,7 +921,6 @@
   background-color: transparent;
   color: white;
   margin-left: 275px;
-  
 }
 /* ===================================== */
 .join {
@@ -977,7 +962,6 @@
 .com {
   width: 450px;
   height: 46px;
-  /* border: 1px solid red; */
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -993,14 +977,12 @@
   border-radius: 44px;
 }
 .com1 i {
-  /* margin-left: 35px; */
   font-weight: 900;
   font-size: 18px;
 }
 .singup {
   width: 427.59px;
   height: 250px;
-  /* border: 1px solid white; */
 }
 .singup h2 {
   font-size: 30px;
@@ -1033,32 +1015,35 @@
   width: 1920px;
   height: 460px;
   background-color: white;
-  /* border: 1px solid white; */
   color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: -50px;
   border-top: 1px solid #a29f9f;
-  
 }
 .comp {
   width: 224px;
   height: 325px;
-  /* border: 1px solid white; */
   margin-left: 60px;
-  /* text-align: center; */
 }
 .comp10 {
   width: 284.59px;
   height: 325px;
-  /* border: 1px solid white; */
   margin-left: 60px;
-  /* text-align: center; */
 }
 .yet1 {
-  
+  width: 542px;
+  height: 73.75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
+.yet1 p {
+  margin-left: 15px;
+}
+
 .comp p {
   font-weight: 400;
   font-size: 15px;
@@ -1067,7 +1052,6 @@
 .comp b {
   font-weight: 900;
   font-size: 20px;
-  /* margin-left: 22px; */
 }
 .ww {
   margin-left: 22px;
@@ -1075,9 +1059,7 @@
 .comp1 {
   width: 206.84px;
   height: 70px;
-  /* border: 1px solid white; */
   border-radius: 16px;
-  /* background-color: white; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -1091,16 +1073,13 @@
 .cziqq {
   width: 140px;
   height: 50px;
-  /* border-left: 2px solid #405FF2; */
-  /* color: #405FF2; */
+
   color: black;
 }
 .cziqq b {
-  /* color: #405FF2; */
   font-weight: 900;
   font-size: 18px;
   color: black;
-  /* margin-left: 22px; */
 }
 .cziqq small {
   margin-left: 20px;
@@ -1109,12 +1088,8 @@
   margin-left: 20px;
 }
 .comp1 i {
-  /* width: 19.06px;
-  height: 25px; */
-  /* color: #405FF2; */
   font-weight: 400;
   font-size: 25px;
-  /* border: 1px solid black; */
   margin-top: -6px;
 }
 .brow {
@@ -1123,22 +1098,23 @@
 .comp2 {
   width: 210px;
   height: 40px;
-  /* border: 1px solid white; */
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   margin-top: 6px;
+  margin-left: 20px;
+  color: black;
+  gap: 40px;
 }
+
 .ret6 {
   margin-top: 90px;
 }
 
-
 .comp2 i {
   font-weight: 900;
-  color: #f1efef;
+  color: black;
   font-size: 20px;
-  /* margin-left: 22px; */
+  margin-left: -22px;
 }
 .termis {
   width: 1920px;
@@ -1162,133 +1138,129 @@
   font-size: 20px;
 }
 
- /* ===================== */
+/* ===================== */
 
 .main8 {
-    width: 1430px;
-    height: 523px;
-    margin: auto;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 1430px;
+  height: 523px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main8 .car-list1 {
-    width: 1430px;
-    height: 443px;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 5px;
-
-
+  width: 1430px;
+  height: 443px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 5px;
 }
 
 .main8 .car-list1 .car-card1 {
-    width: 328px;
-    height: 433px;
-    box-shadow: 0px 0px 2px 1px gray;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 328px;
+  height: 433px;
+  box-shadow: 0px 0px 2px 1px gray;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* *img */
 .main8 .car-list1 .car-card1 .img {
-    width: 328px;
-    height: 218px;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-
+  width: 328px;
+  height: 218px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .main8 .car-list1 .car-card1 .img img {
-    width: 328px;
-    height: 218px;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
+  width: 328px;
+  height: 218px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .main8 .car-list1 .car-card1 .car-footer {
-    width: 300px;
-    height: 200px;
-    margin: auto;
+  width: 300px;
+  height: 200px;
+  margin: auto;
 }
 
 .main8 .car-list1 .car-card1 .car-footer .car1 {
-    width: 300px;
-    height: 50px;
-    border-bottom: 1px solid gray;
+  width: 300px;
+  height: 50px;
+  border-bottom: 1px solid gray;
 }
 
 .main8 .car-list1 .car-card1 .car-footer .car1 p {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /* ^ car2 */
 .main8 .car-list1 .car-card1 .car-footer .car2 {
-    width: 300px;
-    height: 69px;
-    border-bottom: 1px solid gray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 300px;
+  height: 69px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main8 .car-list1 .car-card1 .car-footer .car2 div {
-    width: 84px;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
+  width: 84px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
 }
 
 /* ^car3 */
 .main8 .car-list1 .car-card1 .car-footer .car3 {
-    width: 300px;
-    height: 69px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 300px;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main8 .car-list1 .car-card1 .car-footer .car3 p {
-    font-size: 25px;
-    font-weight: 800;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 .main8 .car-list1 .car-card1 .car-footer .car3 span {
-    color: blue;
+  color: blue;
 }
 
 .main8 .btn-footer {
-    width: 130px;
-    height: 55px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 130px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main8 .btn-footer .btn-left1 {
-    width: 60px;
-    height: 40px;
-    border: 1px solid gray;
-    border-radius: 30px;
-    font-size: 30px;
+  width: 60px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  font-size: 30px;
 }
 
 .main8 .btn-footer .btn-right1 {
-    width: 60px;
-    height: 40px;
-    border: 1px solid gray;
-    border-radius: 30px;
-    font-size: 30px;
-
+  width: 60px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  font-size: 30px;
 }
 
 /* ========================= */
@@ -1298,7 +1270,7 @@ body.darkmode {
 }
 body.darkmode .car-container p {
   color: white;
-} 
+}
 body.darkmode .online1 button {
   color: white;
   border: 2px solid white;
@@ -1313,26 +1285,6 @@ body.darkmode .dls2 {
 body.darkmode .box3 {
   color: black;
 }
-body.darkmode .btn-left .btn-right i{
+body.darkmode .btn-left .btn-right i {
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
