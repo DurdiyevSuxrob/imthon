@@ -479,7 +479,7 @@
   height: 50px;
   /* border: 1px solid black; */
   margin-left: 260px;
-  margin-top: -130px;
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
 }
@@ -501,6 +501,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin-top: 50px;
+  margin-top: 100px;
 }
 
 .main12 .main12-box {
@@ -940,9 +941,9 @@
 .join {
   width: 1920px;
   height: 357.25px;
-  background-color: #050b20;
+  background-color: white;
   margin-top: 100px;
-  color: white;
+  color: black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -980,7 +981,7 @@
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  margin-left: 30px;
+  margin-left: -30px;
 }
 .com1 {
   width: 211.31px;
@@ -1031,14 +1032,15 @@
 .company {
   width: 1920px;
   height: 460px;
-  background-color: #050b20;
+  background-color: white;
   /* border: 1px solid white; */
-  color: white;
+  color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: -50px;
   border-top: 1px solid #a29f9f;
+  
 }
 .comp {
   width: 224px;
@@ -1057,7 +1059,7 @@
 .comp p {
   font-weight: 400;
   font-size: 15px;
-  color: #ffffff;
+  color: black;
 }
 .comp b {
   font-weight: 900;
@@ -1077,7 +1079,7 @@
   justify-content: space-evenly;
   align-items: center;
   color: white;
-  background-color: #ffffff12;
+  background-color: white;
   margin-left: 22px;
 }
 .ri-apple-fill {
@@ -1088,13 +1090,13 @@
   height: 50px;
   /* border-left: 2px solid #405FF2; */
   /* color: #405FF2; */
-  color: white;
+  color: black;
 }
 .cziqq b {
   /* color: #405FF2; */
   font-weight: 900;
   font-size: 18px;
-  color: white;
+  color: black;
   /* margin-left: 22px; */
 }
 .cziqq small {
@@ -1140,8 +1142,8 @@
 .termis {
   width: 1920px;
   height: 99.09px;
-  background-color: #050b20;
-  color: #a29f9f;
+  background-color: white;
+  color: black;
   border-top: 1px solid #a29f9f;
   display: flex;
   justify-content: space-around;
