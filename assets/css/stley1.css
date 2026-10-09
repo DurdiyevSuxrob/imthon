@@ -1281,7 +1281,11 @@ body.darkmode .btn-left .btn-right i {
     overflow-x: hidden;
   }
 
-  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 
   .div {
     width: 100%;
@@ -1335,7 +1339,9 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .div33 a.div33 p.btn1 {
+  .div33 a,
+  .div33 p,
+  .btn1 {
     font-size: 13px;
   }
 
@@ -1343,8 +1349,10 @@ body.darkmode .btn-left .btn-right i {
     font-size: 24px;
   }
 
+  /* MODAL */
   .modal {
     padding: 16px;
+    z-index: 9999;
   }
 
   .modal .modal-container {
@@ -1379,7 +1387,7 @@ body.darkmode .btn-left .btn-right i {
     gap: 8px;
   }
 
-  .modal .modal-container .label  {
+  .modal .modal-container .label label {
     font-size: 18px;
   }
 
@@ -1506,26 +1514,25 @@ body.darkmode .btn-left .btn-right i {
     height: auto;
   }
 
-  .tayota h2
+  .tayota h2,
   .tayota p {
     margin-left: 12px;
     margin-right: 12px;
   }
 
-  .melis
+  .melis,
   .vev {
     width: calc(100% - 24px);
     margin-left: 12px;
-  }
-  .melis {
-    width: 100px;
   }
 
   .fff {
     min-width: 0;
   }
 
-  .fff i.fff .m1.fff p {
+  .fff i,
+  .fff .m1,
+  .fff p {
     margin-left: 6px;
   }
 
@@ -1537,7 +1544,9 @@ body.darkmode .btn-left .btn-right i {
     flex-direction: column;
   }
 
-  .online1.imagee.imagee img {
+  .online1
+  .imagee
+  .imagee img {
     width: 100%;
     max-width: 100%;
   }
