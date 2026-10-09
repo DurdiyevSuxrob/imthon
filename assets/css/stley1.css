@@ -1339,8 +1339,8 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .div33 a
-  .div33 p
+  .div33 a,
+  .div33 p,
   .btn1 {
     font-size: 13px;
   }
@@ -1349,6 +1349,7 @@ body.darkmode .btn-left .btn-right i {
     font-size: 24px;
   }
 
+  /* MODAL */
   .modal {
     padding: 16px;
     z-index: 9999;
@@ -1400,6 +1401,7 @@ body.darkmode .btn-left .btn-right i {
     min-height: 42px;
   }
 
+  /* ASOSIY QISM */
   .qwe {
     width: calc(100% - 40px);
     height: auto;
@@ -1431,14 +1433,14 @@ body.darkmode .btn-left .btn-right i {
     gap: 12px;
   }
 
-  .ret
-  .car-container
-  .ret1
-  .grat
-  .online
-  .Brow
-  .team
-  .sound
+  .ret,
+  .car-container,
+  .ret1,
+  .grat,
+  .online,
+  .Brow,
+  .team,
+  .sound,
   .bmw {
     width: calc(100% - 32px);
     max-width: 100%;
@@ -1454,14 +1456,16 @@ body.darkmode .btn-left .btn-right i {
     flex-wrap: wrap;
   }
 
-  .ret h2
-  .Brow h2
-  .team h2
-  .h2h2.o
+  .ret h2,
+  .Brow h2,
+  .team h2,
+  .h2h2,
+  .o,
   .ret4 h2 {
     font-size: clamp(24px, 5vw, 34px);
   }
 
+  /* MASHINA KATEGORIYALARI */
   .car-container {
     height: auto;
     display: grid;
@@ -1486,6 +1490,7 @@ body.darkmode .btn-left .btn-right i {
     margin-top: 20px;
     gap: 12px;
     overflow-x: auto;
+    white-space: nowrap;
   }
 
   .grat {
