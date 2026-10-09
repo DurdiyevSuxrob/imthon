@@ -1772,8 +1772,6 @@ body.darkmode .btn-left .btn-right i {
   .volk {
     width: 100%;
     height: 145px;
-    min-width: 0;
-    text-align: center;
     padding: 10px 4px;
   }
 
