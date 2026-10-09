@@ -1355,6 +1355,9 @@ body.darkmode .btn-left .btn-right i {
   .div33 p {
     display: none;
   }
+  .div33 a {
+    margin-top: -112px;
+  }
 
   /* MODAL */
   .modal {
