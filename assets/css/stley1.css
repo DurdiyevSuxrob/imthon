@@ -1127,7 +1127,7 @@
 .main8 {
   width: 1430px;
   height: 523px;
-  margin: auto;
+  margin-left: 260px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -2011,4 +2011,7 @@ body.darkmode .btn-left .btn-right i {
     justify-content: center;
     text-align: center;
   }
+}
+.online {
+  border: 1px solid green;
 }
