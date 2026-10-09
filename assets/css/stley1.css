@@ -1687,7 +1687,6 @@ body.darkmode .btn-left .btn-right i {
     padding: 10px 0;
     gap: 8px;
     overflow-x: auto;
-    align-items: stretch;
   }
 
   .categ button {
