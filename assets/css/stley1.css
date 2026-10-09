@@ -1022,8 +1022,8 @@
   color: #ffffff;
 }
 .com3 {
-  width: 427.59px;
-  height: 69.76px;
+  width: 115.31px;
+  height: 51.75px;
   border-radius: 12px;
   background-color: #405ff2;
   color: #ffffff;
@@ -1055,6 +1055,9 @@
   /* border: 1px solid white; */
   margin-left: 60px;
   /* text-align: center; */
+}
+.yet1 {
+  
 }
 .comp p {
   font-weight: 400;
@@ -1130,9 +1133,7 @@
   margin-top: 90px;
 }
 
-.w {
-  margin-left: 22px;
-}
+
 .comp2 i {
   font-weight: 900;
   color: #f1efef;
