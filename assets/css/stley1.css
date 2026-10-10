@@ -1912,6 +1912,11 @@ body.darkmode .main12-foter button i {
     max-width: 100%;
   }
 }
+*
+  *::before
+  *::after {
+    box-sizing: border-box;
+  }
 
 @media (max-width: 480px) {
   .div13 {
@@ -1930,11 +1935,6 @@ body.darkmode .main12-foter button i {
     gap: 10px;
   }
   
-  *
-  *::before
-  *::after {
-    box-sizing: border-box;
-  }
 
   .car-container {
     grid-template-columns: repeat(2, minmax(0, 1fr));
