@@ -1284,11 +1284,10 @@ body.darkmode .main12-foter button i {
     overflow-x: hidden;
   }
 
-  /* *
-  *::before,
-  *::after {
+  
+  *::before::after {
     box-sizing: border-box;
-  } */
+  }
 
   .div {
     width: 100%;
