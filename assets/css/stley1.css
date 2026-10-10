@@ -1284,11 +1284,7 @@ body.darkmode .main12-foter button i {
     overflow-x: hidden;
   }
 
-  *
-  *::before
-  *::after {
-    box-sizing: border-box;
-  }
+  
 
   .div {
     width: 100%;
@@ -1932,6 +1928,12 @@ body.darkmode .main12-foter button i {
 
   .div33 {
     gap: 10px;
+  }
+  
+  *
+  *::before
+  *::after {
+    box-sizing: border-box;
   }
 
   .car-container {
