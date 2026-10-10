@@ -1276,6 +1276,40 @@ body.darkmode .main12-foter button i {
   color: white;
 }
 /* ================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   html,
   body {
@@ -1311,6 +1345,7 @@ body.darkmode .main12-foter button i {
     min-height: 80px;
     padding: 12px 16px;
     gap: 10px;
+    flex-wrap: wrap;
   }
 
   .div23 {
@@ -1347,11 +1382,10 @@ body.darkmode .main12-foter button i {
   .btn1 {
     font-size: 13px;
   }
-  
+
   .btn2 {
     font-size: 24px;
   }
-  
 
   /* MODAL */
   .modal {
@@ -1360,8 +1394,8 @@ body.darkmode .main12-foter button i {
   }
 
   .modal .modal-container {
-    width: min(100%, 500px);
-    max-width: 100%;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     min-height: 420px;
     max-height: 90vh;
@@ -1521,8 +1555,6 @@ body.darkmode .main12-foter button i {
     display: block;
     width: 100%;
     height: auto;
-    aspect-ratio: 1.5 / 1;
-    object-fit: cover;
   }
 
   .tayota h2,
@@ -1579,7 +1611,6 @@ body.darkmode .main12-foter button i {
 
   .imagee img {
     display: block;
-    object-fit: cover;
   }
 
   /* BRENDLAR */
@@ -1611,7 +1642,6 @@ body.darkmode .main12-foter button i {
 
   .ret6 img {
     max-width: 65px;
-    object-fit: contain;
   }
 
   .ret6 b {
@@ -1630,17 +1660,17 @@ body.darkmode .main12-foter button i {
     width: calc(100% - 32px);
     height: 304px;
     margin: 40px 16px 0;
+    overflow-x: auto;
   }
 
   .main12 .main12-box {
-    width: max-content;
+    width: 100%;
     height: 214px;
     gap: 12px;
   }
 
   .main12 .main12-box .box3 {
     width: min(280px, calc(100vw - 48px));
-    flex-shrink: 0;
   }
 
   .main12-foter {
@@ -1674,8 +1704,6 @@ body.darkmode .main12-foter button i {
     display: block;
     width: 100%;
     height: auto;
-    aspect-ratio: 0.82 / 1;
-    object-fit: cover;
   }
 
   .hanry b {
@@ -1695,7 +1723,7 @@ body.darkmode .main12-foter button i {
   }
 
   .categ button {
-    flex: 0 0 auto;
+    flex: 0 1 auto;
   }
 
   /* TELEFON ILOVA QISMI */
@@ -1792,7 +1820,6 @@ body.darkmode .main12-foter button i {
     height: 75px;
     max-width: 100%;
     margin: 0 auto 8px;
-    object-fit: contain;
   }
 
   .audo b,
@@ -1931,10 +1958,11 @@ body.darkmode .main12-foter button i {
     width: calc(100% - 32px);
     height: 523px;
     margin: 40px 16px 0;
+    overflow-x: auto;
   }
 
   .main8 .car-list1 {
-    width: max-content;
+    width: 100%;
     height: 443px;
     justify-content: flex-start;
     gap: 12px;
@@ -1942,7 +1970,6 @@ body.darkmode .main12-foter button i {
 
   .main8 .car-list1 .car-card1 {
     width: min(300px, calc(100vw - 48px));
-    flex-shrink: 0;
   }
 
   .main8 .car-list1 .car-card1 .img,
