@@ -1508,8 +1508,8 @@ body.darkmode .ret4 {
         font-size: 16px;
     }
 
-    .ret3i p,
-    .ret3i b,
+    .ret3i p
+    .ret3i b
     .rqm {
         margin-left: 15px;
     }
@@ -1892,7 +1892,7 @@ body.darkmode .ret4 {
         padding: 0;
     }
 
-    .carhut1 i,
+    .carhut1 i
     .carhut1 p {
         margin-top: 20px;
     }
@@ -1935,7 +1935,7 @@ body.darkmode .ret4 {
         gap: 40px 20px;
     }
 
-    .comp,
+    .comp
     .comp10 {
         width: 100%;
         height: auto;
