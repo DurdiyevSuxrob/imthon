@@ -1371,13 +1371,25 @@ body.darkmode .main12-foter button i {
     gap: 16px;
   }
 
-  .modal .modal-container .h3,
-  .modal .modal-container .label,
-  .modal .modal-container .label input,
   .modal .modal-container .sumbit {
     width: 100%;
     max-width: 100%;
   }
+  .modal .modal-container .h3 {
+     width: 100%;
+    max-width: 100%;
+  }
+
+  .modal .modal-container .label {
+     width: 100%;
+    max-width: 100%;
+  }
+
+  .modal .modal-container .label input {
+      width: 100%;
+    max-width: 100%;
+  }
+
 
   .modal .modal-container .h3 {
     height: auto;
