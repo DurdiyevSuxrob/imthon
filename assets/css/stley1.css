@@ -1344,11 +1344,19 @@ body.darkmode .main12-foter button i {
     flex-wrap: wrap;
   }
 
-  .div33 a,
-  .div33 p,
   .btn1 {
     font-size: 13px;
   }
+  .div33 p {
+    font-size: 13px;
+
+  }
+  .div33 a {
+    font-size: 13px;
+
+  }
+
+
 
   .btn2 {
     font-size: 24px;
