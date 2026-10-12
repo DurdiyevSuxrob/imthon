@@ -1784,26 +1784,31 @@ body.darkmode .main12-foter button i {
     flex: 0 1 auto;
   }
 
-  /* TELEFON ILOVA QISMI */
+  
+  /* =================== */
+  @media (max-width: 768px) {
   .shopp {
     width: calc(100% - 32px);
     height: auto;
     margin: 35px 16px 0;
     flex-direction: column;
+    gap: 20px;
   }
 
-  .used
+  .used {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+
   .tel {
     width: 100%;
     height: auto;
     border-radius: 14px;
   }
 
-  .used {
-    padding: 30px 20px;
-  }
-
-  .used h2
+  .used h2,
   .used p {
     margin: 0 0 14px;
   }
@@ -1822,6 +1827,7 @@ body.darkmode .main12-foter button i {
 
   .apple1 {
     width: min(100%, 207px);
+    box-sizing: border-box;
   }
 
   .tel img {
@@ -1830,6 +1836,7 @@ body.darkmode .main12-foter button i {
     height: auto;
     border-radius: 14px;
   }
+}
 
   /* PASTKI QISM */
   .wep {
