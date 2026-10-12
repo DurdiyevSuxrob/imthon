@@ -1901,7 +1901,14 @@ body.darkmode .main12-foter button i {
     text-align: center;
     padding: 10px 4px;
   }
-  .audo
+  .audo img  {
+     display: block;
+    width: 75px;
+    height: 75px;
+    max-width: 100%;
+    margin: 0 auto 8px;
+  }
+
   .volk img {
     display: block;
     width: 75px;
