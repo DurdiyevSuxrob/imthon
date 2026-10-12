@@ -1839,6 +1839,7 @@ body.darkmode .main12-foter button i {
 }
 
   /* PASTKI QISM */
+ @media (max-width: 768px) {
   .wep {
     width: 100%;
     height: auto;
@@ -1846,6 +1847,7 @@ body.darkmode .main12-foter button i {
     padding: 0 16px;
     gap: 12px;
     flex-wrap: wrap;
+    box-sizing: border-box;
   }
 
   .o
@@ -1854,13 +1856,15 @@ body.darkmode .main12-foter button i {
   }
 
   .bmw {
+    width: 100%;
     height: auto;
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 12px;
+    box-sizing: border-box;
   }
-
+}
   .volk {
     width: 100%;
     height: 145px;
