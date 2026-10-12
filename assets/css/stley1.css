@@ -1438,20 +1438,68 @@ body.darkmode .main12-foter button i {
     gap: 12px;
   }
 
-  .ret,
-  .car-container,
-  .ret1,
-  .grat,
-  .online,
-  .Brow,
-  .team,
-  .sound,
   .bmw {
     width: calc(100% - 32px);
     max-width: 100%;
     margin-left: 16px;
     margin-right: 16px;
   }
+  .ret {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .ret1 {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .car-container {
+     width: calc(100% - 32px);
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+
+  .grat {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .online {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .Brow {
+     width: calc(100% - 32px);
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .sound {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .team {
+    width: calc(100% - 32px);
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+
 
   .ret {
     height: auto;
@@ -1461,14 +1509,29 @@ body.darkmode .main12-foter button i {
     flex-wrap: wrap;
   }
 
-  .ret h2,
-  .Brow h2,
-  .team h2,
-  .h2h2,
-  .o,
+  .o
   .ret4 h2 {
     font-size: clamp(24px, 5vw, 34px);
   }
+  .h2h2 {
+    font-size: clamp(24px, 5vw, 34px);
+  }
+  .team h2 {
+    font-size: clamp(24px, 5vw, 34px);
+    
+  }
+  .Brow h2 {
+    font-size: clamp(24px, 5vw, 34px);
+
+  }
+  .ret h2 {
+    font-size: clamp(24px, 5vw, 34px);
+
+  }
+
+
+
+
 
   /* MASHINA KATEGORIYALARI */
   .car-container {
@@ -1530,7 +1593,7 @@ body.darkmode .main12-foter button i {
     margin-right: 12px;
   }
 
-  .melis,
+  .melis
   .vev {
     width: calc(100% - 24px);
     margin-left: 12px;
@@ -1540,8 +1603,8 @@ body.darkmode .main12-foter button i {
     min-width: 0;
   }
 
-  .fff i,
-  .fff .m1,
+  .fff i
+  .fff .m1
   .fff p {
     margin-left: 6px;
   }
@@ -1555,12 +1618,20 @@ body.darkmode .main12-foter button i {
     flex-direction: column;
   }
 
-  .online1,
-  .imagee,
   .imagee img {
     width: 100%;
     max-width: 100%;
   }
+  .imagee {
+     width: 100%;
+    max-width: 100%;
+  }
+  .online1 {
+     width: 100%;
+    max-width: 100%;
+  }
+
+
 
   .online1 {
     height: auto;
@@ -1571,7 +1642,7 @@ body.darkmode .main12-foter button i {
     font-size: clamp(26px, 5vw, 36px);
   }
 
-  .imagee,
+  .imagee
   .imagee img {
     height: auto;
   }
@@ -1701,7 +1772,7 @@ body.darkmode .main12-foter button i {
     flex-direction: column;
   }
 
-  .used,
+  .used
   .tel {
     width: 100%;
     height: auto;
@@ -1712,7 +1783,7 @@ body.darkmode .main12-foter button i {
     padding: 30px 20px;
   }
 
-  .used h2,
+  .used h2
   .used p {
     margin: 0 0 14px;
   }
@@ -1750,7 +1821,7 @@ body.darkmode .main12-foter button i {
     flex-wrap: wrap;
   }
 
-  .o,
+  .o
   .o1 {
     margin-left: 0;
   }
