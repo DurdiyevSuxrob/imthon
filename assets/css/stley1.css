@@ -1841,14 +1841,7 @@ body.darkmode .main12-foter button i {
   /* PASTKI QISM */
  @media (max-width: 768px) {
   .wep {
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
-    padding: 0 16px;
-    gap: 12px;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    margin-left: 0;
+    display: none;
   }
 
   .o
