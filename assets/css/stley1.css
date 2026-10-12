@@ -1285,8 +1285,8 @@ body.darkmode .main12-foter button i {
     overflow-x: hidden;
   }
 
-  *,
-  *::before,
+  *
+  *::before
   *::after {
     box-sizing: border-box;
   }
@@ -1362,7 +1362,6 @@ body.darkmode .main12-foter button i {
     font-size: 24px;
   }
 
-  /* MODAL */
   .modal {
     padding: 16px;
     z-index: 9999;
@@ -1426,7 +1425,6 @@ body.darkmode .main12-foter button i {
     min-height: 42px;
   }
 
-  /* ASOSIY QISM */
   .qwe {
     width: calc(100% - 40px);
     height: auto;
@@ -1553,7 +1551,6 @@ body.darkmode .main12-foter button i {
 
 
 
-  /* MASHINA KATEGORIYALARI */
   .car-container {
     height: auto;
     display: grid;
@@ -1629,7 +1626,6 @@ body.darkmode .main12-foter button i {
     margin-left: 6px;
   }
 
-  /* ONLINE QISMI */
   .online {
     height: auto;
     margin-top: 70px;
@@ -1671,7 +1667,6 @@ body.darkmode .main12-foter button i {
     display: block;
   }
 
-  /* BRENDLAR */
   .ret4 {
     width: 100%;
     height: auto;
@@ -1713,7 +1708,6 @@ body.darkmode .main12-foter button i {
     flex-wrap: wrap;
   }
 
-  /* KARTOCHKALAR */
   .main12 {
     width: calc(100% - 32px);
     height: 304px;
@@ -1736,7 +1730,6 @@ body.darkmode .main12-foter button i {
     margin: 12px 16px 0;
   }
 
-  /* JAMOA */
   .team {
     height: auto;
     margin-top: 90px;
@@ -1838,7 +1831,6 @@ body.darkmode .main12-foter button i {
   }
 }
 
-  /* PASTKI QISM */
  @media (max-width: 768px) {
   .wep {
     display: none;
