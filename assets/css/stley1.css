@@ -1848,6 +1848,7 @@ body.darkmode .main12-foter button i {
     gap: 12px;
     flex-wrap: wrap;
     box-sizing: border-box;
+    margin-left: 0;
   }
 
   .o
