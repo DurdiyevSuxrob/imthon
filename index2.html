@@ -1,15 +1,180 @@
 
 
+
+ 
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CarHut</title>
+  <title>CarHut - Find Your Perfect Car</title>
   <link rel="stylesheet" href="./assets/css/stley2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <main class="hero">
+    <header class="navbar">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-car-side"></i>
+        <span>CarHut</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#">Home <i class="fa-solid fa-caret-down"></i></a>
+        <a href="#">Listings <i class="fa-solid fa-caret-down"></i></a>
+        <a href="#">Blog <i class="fa-solid fa-caret-down"></i></a>
+        <a href="#">Pages <i class="fa-solid fa-caret-down"></i></a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <button class="sign-in"><i class="fa-regular fa-user"></i> Sign in</button>
+        <button class="submit-listing">Submit Listing</button>
+      </nav>
+    </header>
+
+    <section class="content">
+      <h1>Let's Find Your Perfect Car</h1>
+
+      <div class="search-card">
+        <div class="tabs">
+          <button class="tab active" data-type="New">New</button>
+          <button class="tab" data-type="Used">Used</button>
+        </div>
+
+        <label class="select-box">
+          <span>Select Makes</span>
+          <select id="make">
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+            <option value="Mercedes-Benz">Mercedes-Benz</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Tesla">Tesla</option>
+            <option value="Chevrolet">Chevrolet</option>
+          </select>
+        </label>
+
+        <label class="select-box">
+          <span>Select Models</span>
+          <select id="model">
+            <option value="Q7">Q7</option>
+            <option value="A4">A4</option>
+            <option value="A6">A6</option>
+            <option value="Q5">Q5</option>
+          </select>
+        </label>
+
+        <div class="price-section">
+          <h3>Select Price</h3>
+          <div class="range-wrap">
+            <input type="range" id="minPrice" min="0" max="250000"
+              value="0" step="1000" aria-label="Minimum price">
+            <input type="range" id="maxPrice" min="0" max="250000"
+              value="250000" step="1000" aria-label="Maximum price">
+          </div>
+          <div class="price-labels">
+            <span id="minLabel">$0</span>
+            <span id="maxLabel">$250,000</span>
+          </div>
+        </div>
+
+        <button class="search-btn" id="searchBtn">
+          <i class="fa-solid fa-magnifying-glass"></i> Search
+        </button>
+
+        <p class="result-message" id="resultMessage" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <div class="car-scene" aria-label="Electric car charging illustration">
+      <div class="charging-station station-one"></div>
+      <div class="charging-station station-two"></div>
+
+      <svg class="car-art" viewBox="0 0 760 300" role="img"
+        aria-label="Blue electric sports car">
+        <defs>
+          <linearGradient id="bodyPaint" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#287bff"/>
+            <stop offset="40%" stop-color="#0c3b9f"/>
+            <stop offset="75%" stop-color="#07183f"/>
+            <stop offset="100%" stop-color="#164ed0"/>
+          </linearGradient>
+          <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+            <stop stop-color="#153e8e"/>
+            <stop offset="100%" stop-color="#02071b"/>
+          </linearGradient>
+          <filter id="glow">
+            <feGaussianBlur stdDeviation="5" result="blur"/>
+            <feMerge>
+              <feMergeNode in="blur"/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+        </defs>
+
+        <ellipse cx="410" cy="254" rx="315" ry="20"
+          fill="#0755ff" opacity=".23" filter="url(#glow)"/>
+
+        <path d="M68 185
+          L105 145 Q130 126 204 115
+          L301 78 Q344 54 420 57
+          L560 77 L665 96
+          L703 122 L726 136
+          L736 154 L722 165
+          L650 172 Q625 114 573 132
+          Q537 140 526 174
+          L282 181 Q270 122 215 134
+          Q164 142 155 183
+          L90 193 Z"
+          fill="url(#bodyPaint)" stroke="#164fc1" stroke-width="2"/>
+
+        <path d="M224 112 L305 80 Q346 63 408 65
+          L548 85 L437 112 L270 123 Z"
+          fill="url(#glass)" stroke="#2d75ff" stroke-width="2"/>
+
+        <path d="M439 114 L559 88 L654 104 L690 126
+          L470 132 Z" fill="#040b24" stroke="#154bc0" stroke-width="2"/>
+
+        <path d="M84 153 L147 136 L129 151 L92 165 Z"
+          fill="#a9f7ff" filter="url(#glow)"/>
+        <path d="M108 174 L220 158"
+          stroke="#198aff" stroke-width="3" filter="url(#glow)"/>
+
+        <circle cx="210" cy="181" r="43" fill="#020718"
+          stroke="#102e6b" stroke-width="7"/>
+        <circle cx="210" cy="181" r="24" fill="#071735"
+          stroke="#1748a0" stroke-width="5"/>
+        <circle cx="585" cy="171" r="43" fill="#020718"
+          stroke="#102e6b" stroke-width="7"/>
+        <circle cx="585" cy="171" r="24" fill="#071735"
+          stroke="#1748a0" stroke-width="5"/>
+
+        <path d="M302 185 L499 179"
+          stroke="#227bff" stroke-width="3" opacity=".7"/>
+        <path d="M175 214 L543 209"
+          stroke="#0b51ce" stroke-width="4" opacity=".6"/>
+      </svg>
+
+      <svg class="charging-cable" viewBox="0 0 250 220"
+        aria-hidden="true">
+        <path d="M20 30 C85 15 108 67 90 115
+          S85 195 139 190 S186 139 229 35"
+          fill="none" stroke="#02091d" stroke-width="9"/>
+        <path d="M20 30 C85 15 108 67 90 115
+          S85 195 139 190 S186 139 229 35"
+          fill="none" stroke="#4389ff" stroke-width="4"/>
+        <circle cx="20" cy="30" r="7" fill="#00eaff"
+          filter="url(#glow)"/>
+        <circle cx="229" cy="35" r="7" fill="#00eaff"
+          filter="url(#glow)"/>
+      </svg>
+    </div>
+  </main>
+
  
+
   <script src="script.js"></script>
 </body>
 </html>

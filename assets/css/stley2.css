@@ -1,1 +1,478 @@
 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f3f8;
+  color: white;
+  padding: 5px 8px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 565px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  background:
+    radial-gradient(ellipse at 73% 63%, #0b1c48 0%, transparent 37%),
+    radial-gradient(ellipse at 8% 10%, #101d50 0%, transparent 35%),
+    linear-gradient(115deg, #050b20, #03081b 70%, #050b20);
+}
+
+.navbar {
+  max-width: 966px;
+  width: calc(100% - 40px);
+  height: 75px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.logo i {
+  font-size: 34px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.nav-links a i {
+  font-size: 8px;
+  margin-left: 3px;
+}
+
+.sign-in,
+.submit-listing {
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.sign-in i {
+  margin-right: 6px;
+}
+
+.submit-listing {
+  border: 1px solid #aeb5c8;
+  border-radius: 13px;
+  padding: 10px 17px;
+}
+
+.submit-listing:hover {
+  background: white;
+  color: #080e25;
+}
+
+.menu-toggle {
+  display: none;
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.content {
+  max-width: 966px;
+  width: calc(100% - 40px);
+  margin: 42px auto 0;
+  position: relative;
+  z-index: 2;
+}
+
+.content h1 {
+  font-size: clamp(27px, 3vw, 36px);
+  font-weight: 500;
+  letter-spacing: .2px;
+  margin-bottom: 25px;
+}
+
+.search-card {
+  width: 296px;
+  min-height: 330px;
+  padding: 21px;
+  border-radius: 12px;
+  background: #fff;
+  color: #10152b;
+  position: relative;
+  z-index: 3;
+}
+
+.tabs {
+  display: flex;
+  height: 37px;
+  border: 1px solid #777e90;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.tab {
+  width: 50%;
+  border: none;
+  background: white;
+  color: #080d22;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.tab.active {
+  background: #050a1e;
+  color: white;
+}
+
+.select-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 42px;
+  border: 1px solid #e8e8ed;
+  border-radius: 7px;
+  padding: 4px 10px;
+  margin-bottom: 13px;
+}
+
+.select-box span {
+  font-size: 9px;
+  color: #888;
+  margin-bottom: 3px;
+}
+
+.select-box select {
+  border: none;
+  outline: none;
+  background: white;
+  color: #151a2e;
+  font-size: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.price-section {
+  margin-top: 12px;
+}
+
+.price-section h3 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.range-wrap {
+  position: relative;
+  height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.range-wrap::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  height: 3px;
+  background: #445df8;
+}
+
+.range-wrap input {
+  position: absolute;
+  width: 100%;
+  height: 18px;
+  appearance: none;
+  background: none;
+  pointer-events: none;
+  margin: 0;
+}
+
+.range-wrap input::-webkit-slider-thumb {
+  appearance: none;
+  width: 19px;
+  height: 19px;
+  border: 1px solid #11182f;
+  border-radius: 50%;
+  background: white;
+  cursor: grab;
+  pointer-events: auto;
+}
+
+.range-wrap input::-moz-range-thumb {
+  width: 17px;
+  height: 17px;
+  border: 1px solid #11182f;
+  border-radius: 50%;
+  background: white;
+  cursor: grab;
+  pointer-events: auto;
+}
+
+.price-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 11px;
+  color: #3858ff;
+}
+
+.price-labels span {
+  padding: 4px 7px;
+  background: #f0f2ff;
+  border-radius: 6px;
+}
+
+.search-btn {
+  width: 100%;
+  height: 39px;
+  margin-top: 14px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background: #405cf5;
+  cursor: pointer;
+  font-size: 11px;
+  transition: .2s;
+}
+
+.search-btn i {
+  margin-right: 8px;
+  font-size: 10px;
+}
+
+.search-btn:hover {
+  background: #2945df;
+}
+
+.result-message {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #344eea;
+  margin-top: 8px;
+}
+
+.car-scene {
+  position: absolute;
+  width: 59%;
+  height: 340px;
+  right: 3%;
+  top: 150px;
+}
+
+.car-art {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  right: 0;
+  top: 35px;
+  overflow: visible;
+  filter: drop-shadow(0 0 15px #073aaf);
+}
+
+.charging-station {
+  position: absolute;
+  width: 57px;
+  height: 220px;
+  top: 35px;
+  border: 1px solid #29447e;
+  border-radius: 10px 10px 0 0;
+  background: linear-gradient(90deg, #1c469d, #060d24 75%);
+  opacity: .9;
+}
+
+.station-one {
+  left: 3%;
+  height: 220px;
+}
+
+.station-two {
+  left: 22%;
+  top: 88px;
+  width: 32px;
+  height: 130px;
+}
+
+.charging-cable {
+  position: absolute;
+  left: 8%;
+  top: 95px;
+  width: 36%;
+  height: 210px;
+  overflow: visible;
+  z-index: 2;
+}
+
+@media (max-width: 1000px) {
+  .navbar,
+  .content {
+    width: calc(100% - 48px);
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .car-scene {
+    width: 58%;
+    right: 1%;
+    top: 170px;
+  }
+
+  .content h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 5px;
+  }
+
+  .hero {
+    min-height: 900px;
+    border-radius: 18px;
+  }
+
+  .navbar {
+    width: calc(100% - 32px);
+    height: 70px;
+  }
+
+  .logo i {
+    font-size: 29px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 62px;
+    right: 0;
+    width: 220px;
+    padding: 18px;
+    background: #101a39;
+    border: 1px solid #29375b;
+    border-radius: 12px;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 17px;
+    box-shadow: 0 12px 30px #0005;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  .nav-links a i {
+    float: right;
+  }
+
+  .sign-in,
+  .submit-listing {
+    font-size: 12px;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .content {
+    width: calc(100% - 32px);
+    margin-top: 24px;
+  }
+
+  .content h1 {
+    font-size: clamp(25px, 6vw, 34px);
+    line-height: 1.25;
+    margin-bottom: 22px;
+  }
+
+  .search-card {
+    width: min(100%, 340px);
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .car-scene {
+    width: 100%;
+    height: 300px;
+    top: 565px;
+    right: 0;
+  }
+
+  .car-art {
+    width: 100%;
+    top: 20px;
+  }
+
+  .charging-station {
+    top: 30px;
+    height: 160px;
+    width: 38px;
+  }
+
+  .station-two {
+    top: 75px;
+    height: 100px;
+    width: 25px;
+  }
+
+  .charging-cable {
+    top: 85px;
+    height: 150px;
+    left: 5%;
+    width: 38%;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero {
+    min-height: 830px;
+  }
+
+  .content h1 {
+    font-size: 25px;
+  }
+
+  .search-card {
+    padding: 16px;
+  }
+
+  .car-scene {
+    top: 540px;
+  }
+}
