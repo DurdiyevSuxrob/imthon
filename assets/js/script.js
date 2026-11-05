@@ -105,3 +105,42 @@ navLinks.querySelectorAll("a").forEach((link) => {
     menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
   });
 });
+
+const signInBtn = document.getElementById("signInBtn");
+const signInModal = document.getElementById("signInModal");
+const modalClose = document.getElementById("modalClose");
+const signInForm = document.getElementById("signInForm");
+const loginMessage = document.getElementById("loginMessage");
+
+// Modalni ochish
+signInBtn.addEventListener("click", () => {
+  signInModal.classList.add("active");
+  loginMessage.textContent = "";
+});
+
+// X tugmasi bilan yopish
+modalClose.addEventListener("click", () => {
+  signInModal.classList.remove("active");
+});
+
+// Modal tashqarisini bosganda yopish
+signInModal.addEventListener("click", (event) => {
+  if (event.target === signInModal) {
+    signInModal.classList.remove("active");
+  }
+});
+
+// Escape tugmasi bilan yopish
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    signInModal.classList.remove("active");
+  }
+});
+
+// Forma yuborilganda
+signInForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  loginMessage.textContent =
+    "Forma tayyor! Haqiqiy login uchun server kerak.";
+});
